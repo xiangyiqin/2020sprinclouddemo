@@ -1,6 +1,5 @@
 package com.xyq.springcloud.entities;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,7 +9,7 @@ import java.io.Serializable;
 /**
  * @author xyq
  * @描述：
- * @创建时间：2020/12/22 21:49
+ * @创建时间：2020/12/24 22:18
  */
 @Data
 @AllArgsConstructor

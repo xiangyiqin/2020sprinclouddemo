@@ -10,11 +10,13 @@
     <modules>
         <module>provider-payment8081</module>
         <module>consumer-order80</module>
+        <module>common-api</module>
     </modules>
     <packaging>pom</packaging>
 
   <!--统一jar包版本-->
   <properties>
+    <project.version>1.0-SNAPSHOT</project.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.complier.target>1.8</maven.complier.target>
     <junit.version>4.12</junit.version>

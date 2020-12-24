@@ -1,7 +1,6 @@
 package com.xyq.springcloud.service;
 
 import com.xyq.springcloud.entities.User;
-import org.apache.ibatis.annotations.Param;
 
 /**
  * @author xyq

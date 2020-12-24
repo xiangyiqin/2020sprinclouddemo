@@ -2,24 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50e71483-df30-4648-aed1-9ac21cd19b89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/consumer-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order80/src/main/java/com/xyq/springcloud/OrderMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order80/src/main/java/com/xyq/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order80/src/main/java/com/xyq/springcloud/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order80/src/main/java/com/xyq/springcloud/entities/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order80/src/main/java/com/xyq/springcloud/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/PaymentMain8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/dao/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/entities/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-payment8081/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-payment8081/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-api/src/main/java/com/xyq/springcloud/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order80/src/main/java/com/xyq/springcloud/entities/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/xyq/springcloud/entities/CommonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order80/src/main/java/com/xyq/springcloud/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order80/target/classes/com/xyq/springcloud/entities/CommonResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order80/target/classes/com/xyq/springcloud/entities/User.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider-payment8081/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment8081/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/entities/CommonResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment8081/target/classes/com/xyq/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment8081/target/classes/com/xyq/springcloud/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment8081/target/classes/com/xyq/springcloud/entities/CommonResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment8081/target/classes/com/xyq/springcloud/entities/User.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -156,6 +154,7 @@
       <workItem from="1608624842867" duration="611000" />
       <workItem from="1608644547606" duration="4179000" />
       <workItem from="1608733634098" duration="2325000" />
+      <workItem from="1608817928363" duration="1966000" />
     </task>
     <servers />
   </component>

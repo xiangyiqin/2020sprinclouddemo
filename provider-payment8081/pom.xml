@@ -11,7 +11,11 @@
 
     <artifactId>provider-payment8081</artifactId>
     <dependencies>
-
+        <dependency>
+            <groupId>com.xyq</groupId>
+            <artifactId>common-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
