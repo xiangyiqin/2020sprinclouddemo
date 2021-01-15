@@ -1,6 +1,8 @@
 package com.xyq.springcloud.service;
 
+import com.xyq.springcloud.entities.CommonResult;
 import com.xyq.springcloud.entities.User;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author xyq
@@ -10,4 +12,5 @@ import com.xyq.springcloud.entities.User;
 public interface PaymentService {
     public int create( User user);
     public User query( long id);
+    public CommonResult<User> queryservice();
 }

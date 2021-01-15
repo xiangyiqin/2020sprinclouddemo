@@ -11,6 +11,10 @@
         <module>provider-payment8081</module>
         <module>consumer-order80</module>
         <module>common-api</module>
+        <module>eureka-server7001</module>
+        <module>provider-payment8082</module>
+        <module>provider-payment8082</module>
+        <module>consumer-feign-order80</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -26,6 +30,7 @@
     <druid.version>1.1.16</druid.version>
     <mybatis.spring.boot.version>1.3.0</mybatis.spring.boot.version>
     <lombok.version>1.16.22</lombok.version>
+    <mq.version>2.3.4.RELEASE</mq.version>
   </properties>
 
   <!--子模块继承之后，提供作用锁定版本+子moudle不用写groupId和version-->

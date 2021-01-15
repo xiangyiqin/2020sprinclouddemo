@@ -2,22 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50e71483-df30-4648-aed1-9ac21cd19b89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-api/src/main/java/com/xyq/springcloud/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-feign-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-feign-order80/src/main/java/com/xyq/springcloud/FeignOrderMain80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-feign-order80/src/main/java/com/xyq/springcloud/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-feign-order80/src/main/java/com/xyq/springcloud/mqconsumer/WorkConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-feign-order80/src/main/java/com/xyq/springcloud/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-feign-order80/src/main/java/com/xyq/springcloud/service/PaymentFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-feign-order80/src/main/java/com/xyq/springcloud/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-feign-order80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-order80/src/main/java/com/xyq/springcloud/mqconsumer/WorkConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-order80/src/main/java/com/xyq/springcloud/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-order80/src/main/java/com/xyq/springcloud/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server7001/src/main/java/com/xyq/springcloud/EurekaMain7001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server7001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/mqconsumer/WorkConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-payment8082/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-payment8082/src/main/java/com/xyq/springcloud/PaymentMaint8082.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-payment8082/src/main/java/com/xyq/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-payment8082/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer-order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order80/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-order80/src/main/java/com/xyq/springcloud/entities/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/xyq/springcloud/entities/CommonResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-order80/src/main/java/com/xyq/springcloud/entities/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-order80/target/classes/com/xyq/springcloud/entities/CommonResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-order80/target/classes/com/xyq/springcloud/entities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order80/src/main/java/com/xyq/springcloud/OrderMain80.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order80/src/main/java/com/xyq/springcloud/OrderMain80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order80/src/main/java/com/xyq/springcloud/config/ApplicationContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order80/src/main/java/com/xyq/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order80/src/main/java/com/xyq/springcloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order80/src/main/java/com/xyq/springcloud/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order80/target/classes/META-INF/consumer-order80.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order80/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order80/target/classes/com/xyq/springcloud/OrderMain80.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order80/target/classes/com/xyq/springcloud/OrderMain80.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order80/target/classes/com/xyq/springcloud/config/ApplicationContextConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order80/target/classes/com/xyq/springcloud/config/ApplicationContextConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order80/target/classes/com/xyq/springcloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order80/target/classes/com/xyq/springcloud/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order80/target/consumer-order80-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order80/target/consumer-order80-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order80/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order80/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider-payment8081/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment8081/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/PaymentMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/PaymentMain8001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/entities/CommonResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/entities/User.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/service/impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment8081/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment8081/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment8081/target/classes/META-INF/provider-payment8081.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment8081/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment8081/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment8081/target/classes/com/xyq/springcloud/PaymentMain8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment8081/target/classes/com/xyq/springcloud/PaymentMain8001.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider-payment8081/target/classes/com/xyq/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment8081/target/classes/com/xyq/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-payment8081/target/classes/com/xyq/springcloud/entities/CommonResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-payment8081/target/classes/com/xyq/springcloud/entities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment8081/target/classes/com/xyq/springcloud/service/PaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment8081/target/classes/com/xyq/springcloud/service/PaymentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment8081/target/classes/com/xyq/springcloud/service/impl/PaymentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment8081/target/classes/com/xyq/springcloud/service/impl/PaymentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment8081/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment8081/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-payment8081/target/provider-payment8081-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/provider-payment8081/target/provider-payment8081-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,15 +95,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../activity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/consumer-feign-order80/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xyq.springcloud.mqconsumer" />
       <recent name="com.xyq.springcloud.entities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\project\cloud2020\consumer-feign-order80\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -87,7 +122,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderMain80">
+  <component name="RunManager" selected="Spring Boot.PaymentMain8001">
+    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xyq.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xyq.springcloud.EurekaMain7001" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeignOrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="consumer-feign-order80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xyq.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xyq.springcloud.FeignOrderMain80" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="consumer-order80" />
       <extension name="coverage">
@@ -118,6 +183,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentMaint8082" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="provider-payment8082" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xyq.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xyq.springcloud.PaymentMaint8082" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="provider-payment8081" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xyq.springcloud.PaymentMain8001" />
@@ -130,11 +210,17 @@
     <list>
       <item itemvalue="Spring Boot.PaymentMain8001" />
       <item itemvalue="Spring Boot.OrderMain80" />
+      <item itemvalue="Spring Boot.EurekaMain7001" />
+      <item itemvalue="Spring Boot.PaymentMaint8082" />
+      <item itemvalue="Spring Boot.FeignOrderMain80" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.OrderMain80" />
         <item itemvalue="Spring Boot.PaymentMain8001" />
+        <item itemvalue="Spring Boot.FeignOrderMain80" />
+        <item itemvalue="Spring Boot.EurekaMain7001" />
+        <item itemvalue="Spring Boot.PaymentMaint8082" />
+        <item itemvalue="Spring Boot.OrderMain80" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +240,15 @@
       <workItem from="1608624842867" duration="611000" />
       <workItem from="1608644547606" duration="4179000" />
       <workItem from="1608733634098" duration="2325000" />
-      <workItem from="1608817928363" duration="1966000" />
+      <workItem from="1608817928363" duration="2986000" />
+      <workItem from="1609157852744" duration="6104000" />
+      <workItem from="1609242757310" duration="5522000" />
+      <workItem from="1609338173269" duration="2292000" />
+      <workItem from="1609766583646" duration="638000" />
+      <workItem from="1609939014052" duration="2106000" />
+      <workItem from="1609941151632" duration="3002000" />
+      <workItem from="1610372562613" duration="7441000" />
+      <workItem from="1610457752489" duration="2292000" />
     </task>
     <servers />
   </component>
@@ -176,5 +270,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/consumer-order80/src/main/java/com/xyq/springcloud/controller/OrderController.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/controller/PaymentController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/provider-payment8081/src/main/java/com/xyq/springcloud/service/impl/PaymentServiceImpl.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

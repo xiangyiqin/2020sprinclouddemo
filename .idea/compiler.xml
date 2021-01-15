@@ -8,9 +8,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common-api" />
+        <module name="eureka-server7001" />
+        <module name="consumer-feign-order80" />
         <module name="consumer-order80" />
+        <module name="provider-payment8082" />
         <module name="provider-payment8081" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="provider-payment8002" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
